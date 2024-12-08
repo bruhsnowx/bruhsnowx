@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Heebo", sans-serif;
+}
+body {
+  background-color: #f7f7f7;
+}
+header {
+  background-color: #fff;
+  height: 5rem;
+}
+header #navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
+  height: 5rem;
+}
+header #navbar .nav-brand {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+header #navbar .navlist {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.93rem;
+}
+header #navbar .navlist .navitem a {
+  color: #777;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 31.25px;
+}
+header #navbar .navlist .navitem a:hover {
+  color: #555;
+  transition: 0.3s;
+}
+
+/* Section banner  */
+
+main {
+  margin-top: 8rem;
+  padding: 0;
+}
+
+main #banner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 75rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+main #banner .bannercontent .bannercontenttitle {
+  font-size: 22px;
+  line-height: 3.75rem;
+  margin-bottom: 2.5rem;
+}
+
+main #banner .bannercontent .btn {
+  font-size: 1rem;
+  font-weight: 400px;
+  line-height: 24px;
+  max-width: 500px;
+  margin-bottom: 2.3rem;
+}
+
+main #banner .bannercontent .a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+main #banner .bannercontent .a {
+  background-color: #00a8cc;
+  color: white;
+  font-size: 20px;
+  font-weight: 500px;
+  border-radius: 7px;
+  padding: 8px 24px;
+  border: none;
+  text-decoration: none;
+}
+
+main #banner img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 244px;
+  border: 1px solid #333;
+}
+
+@media (max-width: 920px) {
+}
+/* Section-posts */
+
+section#posts {
+  margin-top: 4.4rem;
+  background-color: #edf7fa;
+}
+
+#posts .posts-content {
+  padding: 0 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+section#posts .posts-content .posts-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* recent posts */
+#posts .posts-content .section-title {
+  font-size: 22px;
+  font-weight: 500px;
+}
+/* view all */
+#posts .posts-content .posts-content-header .view-all-link {
+  text-decoration: none;
+  color: #00a8cc;
+}
+
+#posts .posts-content .posts-cards {
+  display: flex;
+  gap: 1.2rem;
+}
+#posts .posts-content .posts-cards .post-card {
+  background-color: #fff;
+  padding: 24px;
+  margin-bottom: 2rem;
+}
+/* título de sessão */
+#posts .posts-content .posts-cards h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  display: block;
+}
+
+#posts .posts-content .anot .Notion {
+  font-size: 22px;
+  font-weight: 500px;
+}
+
+#posts .posts-content .anot .ant {
+  width: 120px;
+}
+
+#posts .posts-content .li .bu {
+  background-color: #00a8cc;
+  color: white;
+  font-size: 20px;
+  font-weight: 500px;
+  border-radius: 7px;
+  padding: 8px 24px;
+  border: none;
+  text-decoration: none;
+}
+/* botão de acesso ao Notion */
+#posts .posts-content .acesso .acessbtn {
+  padding: 5px 10px;
+  border: none;
+  font-size: 20px;
+  border-radius: 7px;
+  background-color: #333;
+  color: white;
+  margin-top: 10px;
+}
+
+#posts .posts-content .acesso .acessbtn:hover {
+  background-color: #222;
+  color: white;
+}
